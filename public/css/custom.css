@@ -1,0 +1,28 @@
+.masthead-title img {
+	display: inline;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.social {
+  /*padding-bottom: 40px;*/
+}
+.social a {
+   float: left;
+   margin-right: 20px;
+   margin-left: 20px;
+}
+
+.post-meta {
+  display: block;
+  text-align: right;
+  padding-bottom: 1rem;
+  font-size: 75%;
+}
+
+.post-categories {
+  display: inline;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+}

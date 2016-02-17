@@ -1,0 +1,27 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               '[G]linmac'
+tagline:             'Big Data & Hadoop enthusiast'
+description:         'Random notes, references and links about Big Data, Hadoop and other related topics.'
+url:                 http://glinmac.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Guillaume Gardey
+  url:               https://glinmac.github.io
+  email:             glinmac@gmail.com
+
+github:
+  repo:              https://github.com/glinmac
+
+linkedin:
+   address:          https://www.linkedin.com/ggardey
+
+# Custom vars
+version:             1.0.0
+
+gems: [jekyll-paginate]
