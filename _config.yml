@@ -7,7 +7,7 @@ tagline:             'Big Data & Hadoop enthusiast'
 description:         'Random notes, references and links about Big Data, Hadoop and other related topics.'
 url:                 http://glinmac.github.io
 baseurl:             ''
-paginate:            5
+paginate:            10
 
 # About/contact
 author:

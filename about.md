@@ -14,7 +14,7 @@ few projects.
 
 Don't hesitate to get in touch.
 
-*If you're wondering how to pronounce 'Guillaume', have a look here, or just call me G. :).*
+*If you're wondering how to pronounce 'Guillaume', try something like 'Gee-yom' or shorten it to just G. :).*
 
-[LinkedIn]: https://linkedin.com/gardeyg
+[LinkedIn]: https://linkedin.com/ggardey
 [GitHub]: https://github.com/glinmac
