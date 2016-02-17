@@ -3,6 +3,7 @@ layout: post
 title:  "Ambari & Widgets"
 categories:
   - ambari
+comments: true
 ---
 
 The Ambari UI provides a list of [widgets] for each services and can be customized.

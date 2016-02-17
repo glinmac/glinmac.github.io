@@ -3,6 +3,7 @@ layout: post
 title:  "Non-Interactive Ambari Server setup"
 categories:
  - ambari
+comments: true
 ---
 
 Automation tools like Salt, Ansible, Puppet, ... are great to deploy automatically

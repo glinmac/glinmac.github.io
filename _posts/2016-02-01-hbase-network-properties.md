@@ -3,6 +3,7 @@ layout: post
 title:  "HBase network properties"
 categories:
  - hbase
+comments: true
 ---
 
 In a *'non-standard'* network environment the following HBase properties may be

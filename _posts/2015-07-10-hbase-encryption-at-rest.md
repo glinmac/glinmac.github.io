@@ -3,6 +3,7 @@ layout: post
 title:  "HBase Encryption at Rest"
 categories:
  - hbase
+comments: true
 ---
 
 This provides encryption of data at rest (HFile and WAL).
