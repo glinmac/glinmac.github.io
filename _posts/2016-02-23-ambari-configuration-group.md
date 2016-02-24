@@ -94,11 +94,6 @@ $ curl -u admin:admin \
       "service_name":"KAFKA",
       "component_name":"KAFKA_BROKER",
       "hosts":"node1-m.example.com"
-    },
-    {
-      "service_name":"HDFS",
-      "component_name":"HDFS_CLIENT",
-      "hosts":"c6401.ambari.apache.org"
     }
   ]
 }' \
