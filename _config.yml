@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               '[G]linmac'
-tagline:             'Big Data & Hadoop enthusiast'
+tagline:             'Software/Data/Platform Engineer, Big Data & Hadoop enthusiast'
 description:         'Random notes, references and links about Big Data, Hadoop and other related topics.'
 url:                 http://glinmac.github.io
 baseurl:             ''
@@ -19,7 +19,7 @@ github:
   repo:              https://github.com/glinmac
 
 linkedin:
-   address:          https://www.linkedin.com/ggardey
+   address:          https://uk.linkedin.com/in/ggardey
 
 # Custom vars
 version:             1.0.0
