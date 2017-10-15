@@ -18,20 +18,29 @@ A couple of active projects hosted on [GitHub](https://github.com/glinmac)
    manage the [Audit] framework.    
 
 
-Lectures
---------
+Lectures & Workshop
+-------------------
 
- * **SciMus 2016**, [Science & Music], Digital Music module, Ecole Centrale de Nantes.
+ * **SciMus**, [Science & Music], Digital Music module, Ecole Centrale de Nantes.
    
    A 2 days lecture & workshop to introduce and present:
    
      * general concepts of software engineering and IT services in the context of Digital Music (Web Services, API, 
-       System Architecture, Distribution of Content, Infrastructure, ...) [[slides](https://glinmac.github.io/scimus-2016/slides/music%20&%20web.html)]
-     * introduction to Big Data & Data Processing [[slides](https://glinmac.github.io/scimus-2016/slides/music%20&%20big%20data.html)]
-     * lab activities [[sources](https://github.com/glinmac/scimus-2016)]:
+       System Architecture, Distribution of Content, Infrastructure, ...) 
+     * introduction to Big Data & Data Processing
+     * lab activities
        * Data collection & Analysis with Python, Pandas, Jupyter
        * Introduction to Spark, data processing, collaborative filtering.
-
+       
+    * **2017**
+      * 
+      
+    * **2016**
+      * [[Music & Web](https://glinmac.github.io/scimus-2016/slides/music%20&%20web.html)]
+      * [[Music & Big Data](https://glinmac.github.io/scimus-2016/slides/music%20&%20big%20data.html)]
+      * [[Labs](https://github.com/glinmac/scimus-2016)]
+       
+           
 
 [Hive]: http://hive.apache.org
 [Sublime Text]: https://www.sublimetext.com
