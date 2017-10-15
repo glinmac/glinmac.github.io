@@ -35,12 +35,12 @@ Lectures & Workshop
     * **2017**
       * Slides [Music & Web](https://glinmac.github.io/scimus-2017/slides/music%20&%20web.html)
       * Slides [Music & Big Data](https://glinmac.github.io/scimus-2017/slides/music%20&%20big%20data.html)
-      * Lab activities: https://github.com/glinmac/scimus-2017
+      * Lab activities: [https://github.com/glinmac/scimus-2017](https://github.com/glinmac/scimus-2017)
       
     * **2016**
       * Slides [Music & Web](https://glinmac.github.io/scimus-2016/slides/music%20&%20web.html)
       * Slides [Music & Big Data](https://glinmac.github.io/scimus-2016/slides/music%20&%20big%20data.html)
-      * Lab activities: https://github.com/glinmac/scimus-2016
+      * Lab activities: [https://github.com/glinmac/scimus-2016](https://github.com/glinmac/scimus-2016)
        
            
 
