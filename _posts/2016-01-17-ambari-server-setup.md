@@ -11,7 +11,7 @@ Ambari server and agents to the different nodes in your Hadoop cluster.
 
 One step in installing Ambari is to run the setup command, traditionally documented with:
 
-{% highlight shell %}
+{% highlight bash %}
 ambari-server setup
 {% endhighlight %}
 
@@ -20,7 +20,7 @@ command line, allowing integration and automation with your preferred automation
 
 In particular, details of an external database can be provided, *eg* for PostgreSQL:
 
-{% highlight shell %}
+{% highlight bash %}
 ambari-server setup \
 	-j /YOUR/JAVA/PATH \
 	--database=postgres \
@@ -39,7 +39,7 @@ have to deploy/add this patch to your deployment strategy before running the set
 
 There are more options than documented ([Ambari 2.2.0.0]) that could be helpfull to you:
 
-{% highlight shell %}
+{% highlight bash %}
 sage: ambari-server.py [options] action [stack_id os]
 
 Options:

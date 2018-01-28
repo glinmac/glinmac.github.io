@@ -74,7 +74,7 @@ Widgets are defined in JSON. For instance, the NameNode Heap widget has the foll
 
 To create a widget, simply post the widget data to the widget API endpoint `/api/v1/clusters/${CLUSTER}/widgets`
 
-{% highlight shell %}
+{% highlight bash %}
 curl -u admin:admin -H 'X-Requested-By: ambari' -i \
    -X POST \
    -d @widget.json
@@ -109,7 +109,7 @@ This is simply done by a `GET` request to the widgets endpoint:
 
 This follows the same process than creation but with a `PUT` request with the new widget definition:
 
-{% highlight shell %}
+{% highlight bash %}
 curl -u admin:admin -H 'X-Requested-By: ambari' -i \
     -X PUT \
     -d @widget.json
@@ -120,7 +120,7 @@ curl -u admin:admin -H 'X-Requested-By: ambari' -i \
 
 This can be deleted by sending a `DELETE` request:
 
-{% highlight shell %}
+{% highlight bash %}
 curl -u admin:admin -H 'X-Requested-By: ambari' -i \
     -X DELETE \
     http://localhost:8080/api/v1/clusters/hadoop_cluster/widgets
@@ -134,7 +134,7 @@ The widget layouts describes the specific widgets visible for a given service.
 
 The list of available layouts can be retrieved using a `GET` call to the widget layouts endpoint `/api/v1/clusters/${CLUSTER}/widget_layouts`, eg:
 
-{% highlight shell %}
+{% highlight bash %}
 curl -u admin:admin -H 'X-Requested-By: ambari' -i  \
     http://localhost:8080/api/v1/clusters/hadoop_cluster/widget_layouts
 HTTP/1.1 200 OK
@@ -166,7 +166,7 @@ HTTP/1.1 200 OK
 
 You can also use a filter to look for a specific widget given one of its property. For example, filtering by tthe layout's name:
 
-{% highlight shell %}
+{% highlight bash %}
 curl -u admin:admin -H 'X-Requested-By: ambari' -i  \
     http://localhost:8080/api/v1/clusters/hadoop_cluster/widget_layouts?WidgetLayoutInfo/layout_name=admin_hdfs_dashboard
 {% endhighlight %}
@@ -195,7 +195,7 @@ The data to update:
 
 The update request is a `PUT` request to the specific widget layout endpoint: `/api/v1/clusters/${CLUSTER}/widget_layouts/${LAYOUT_ID}`:
 
-{% highlight shell %}
+{% highlight bash %}
 curl -u admin:admin -H 'X-Requested-By: ambari' -i  \
     -X PUT \
     -d @widget_layout.json \

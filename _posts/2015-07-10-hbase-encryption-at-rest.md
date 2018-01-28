@@ -41,7 +41,7 @@ encrypt existing HFiles. New one will automatically be using encryption.
 ## Configuration
 
 * Generate the master key (used to wrap keys that are going to be used for encryption)
-{% highlight shell %}
+{% highlight bash %}
 $ keytool -keystore /etc/hbase/conf/hbase.jks \
     -storetype jceks \
     -storepass password \
@@ -52,7 +52,7 @@ $ keytool -keystore /etc/hbase/conf/hbase.jks \
 {% endhighlight %}
 
 * Since the file contains the master key, set the appropriate permission
-{% highlight shell %}
+{% highlight bash %}
 $ chown hbase:hadoop /etc/hbase/conf/hbase.jks
 $ chmod 0600 /etc/hbase/conf/hbase.jks
 {% endhighlight %}
@@ -94,7 +94,7 @@ $ chmod 0600 /etc/hbase/conf/hbase.jks
 {% endhighlight %}
 
 * Since `hbase-site.xml` contains the master password, set the appropriate permissions to restrict access:
-{% highlight shell %}
+{% highlight bash %}
 $ chmod 0400 /etc/hbase/conf/hbase-site.xml
 # make sure this is own by hbase (or the user running the hbase service if
 different)
@@ -105,7 +105,7 @@ $ chown hbase:hbase /etc/hbase/conf/hbase-site.xml
 ## Test
 
 * Create a table for testing as `hbase` user:
-{% highlight shell %}
+{% highlight bash %}
 $ hbase shell
 > create 'test_encryption', 'cf'
 > put 'test_encryption', 'row-1', 'cf:q', 'value-1'
@@ -117,7 +117,7 @@ $ hbase shell
 * One can check that the HFile is not encrypted
   * Locate an HFile for the table in HDFS (likely in `/apps/hbase/data/data/default/test_encryption`)
   * Explore properties using `hbase org.apache.hadoop.hbase.io.hfile.HFile` tool:
-{% highlight shell %}
+{% highlight bash %}
 hbase org.apache.hadoop.hbase.io.hfile.HFile -m
 /apps/hbase/data/data/default/test_encryption/86805efa5bd48a241b895325508a7
 499/cf/efb53d6c290e4b1d845af0087d171659
@@ -127,14 +127,14 @@ encryptionKey=NONE,
 {% endhighlight %}
 
   * You could also look at the raw content of the HFile
-{% highlight shell %}
+{% highlight bash %}
 hdfs dfs -cat
 /apps/hbase/data/data/default/test_encryption_2/f645ed7634aaf56f41a9d11285a
 cdb9f/cf/d5e0a2880cc54b2082b591d09c943085 | strings
 {% endhighlight %}
 
 * Activate encryption on a column family
-{% highlight shell %}
+{% highlight bash %}
 $ hbase shell
 > alter 'test_encryption', {NAME => 'cf', 'ENCRYPTION' => 'AES' }
 > major_compact
@@ -143,7 +143,7 @@ $ hbase shell
 * Wait for compaction to finish and inspect the results as before
   * Locate an HFile
   * Dump the content
-{% highlight shell %}
+{% highlight bash %}
 $ hbase org.apache.hadoop.hbase.io.hfile.HFile -m
 /apps/hbase/data/data/default/test_encryption/...
 ...
@@ -154,7 +154,7 @@ $ hdfs dfs -cat /apps/hbase/data/data/default/test_encryption/…. | strings
 {% endhighlight %}
 
 A specific encryption key can also be provided:
-{% highlight shell %}
+{% highlight bash %}
 > alter 'test_encryption', {NAME => 'cf', 'ENCRYPTION_KEY'=>'E4BCFCBA626BF',
 'ENCRYPTION'=>'AES'}
 > describe 'test_encryption_2'

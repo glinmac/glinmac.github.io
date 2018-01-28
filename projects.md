@@ -9,6 +9,7 @@ Projects
 
 A couple of active projects hosted on [GitHub](https://github.com/glinmac)
 
+ * [Sandbox] some misc scripts tools and examples about Big Data, platform, deployment
  * [HDP tools], a collection of notes, scripts and helpers to manage HDP clusters.
  * [Ambari Salt Formula](https://github.com/glinmac/ambari-formula), a [SaltStack] formula
    to manage deployment of [Ambari] Servers and Agents
@@ -31,16 +32,17 @@ Lectures & Workshop
        * Data collection & Analysis with Python, Pandas, Jupyter
        * Introduction to Spark, data processing, collaborative filtering.
    
-   **Resources**:  
-    * **2017**
-      * Slides [Music & Web](https://glinmac.github.io/scimus-2017/slides/music%20&%20web.html)
-      * Slides [Music & Big Data](https://glinmac.github.io/scimus-2017/slides/music%20&%20big%20data.html)
-      * Lab activities: [https://github.com/glinmac/scimus-2017](https://github.com/glinmac/scimus-2017)
+   **Resources**:
+   
+      * **2017**
+          * Slides [Music & Web](https://glinmac.github.io/scimus-2017/slides/music%20&%20web.html)
+          * Slides [Music & Big Data](https://glinmac.github.io/scimus-2017/slides/music%20&%20big%20data.html)
+          * Lab activities: [https://github.com/glinmac/scimus-2017](https://github.com/glinmac/scimus-2017)
       
-    * **2016**
-      * Slides [Music & Web](https://glinmac.github.io/scimus-2016/slides/music%20&%20web.html)
-      * Slides [Music & Big Data](https://glinmac.github.io/scimus-2016/slides/music%20&%20big%20data.html)
-      * Lab activities: [https://github.com/glinmac/scimus-2016](https://github.com/glinmac/scimus-2016)
+      * **2016**
+          * Slides [Music & Web](https://glinmac.github.io/scimus-2016/slides/music%20&%20web.html)
+          * Slides [Music & Big Data](https://glinmac.github.io/scimus-2016/slides/music%20&%20big%20data.html)
+          * Lab activities: [https://github.com/glinmac/scimus-2016](https://github.com/glinmac/scimus-2016)
        
            
 
@@ -53,3 +55,4 @@ Lectures & Workshop
 [Audit Salt Formula]: https://github.com/glinmac/audit-formula
 [Audit]: https://people.redhat.com/sgrubb/audit/
 [Science & Music]: http://www.ec-nantes.fr/version-anglaise/education/engineering-programme/science-and-music-154742.kjsp
+[Sandbox]: https://github.com/glinmac/sandbox]

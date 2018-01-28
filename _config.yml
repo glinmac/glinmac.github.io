@@ -3,11 +3,12 @@ permalink:           pretty
 
 # Setup
 title:               '[G]linmac'
-tagline:             'Software/Data/Platform Engineer, Big Data & Hadoop enthusiast'
-description:         'Random notes, references and links about Big Data, Hadoop and other related topics.'
+tagline:             'SA & (Software|Data|Big Data|Platform) Engineer. Data enthusiast.'
+description:         'Random notes, references and links about Big Data, software engineering and other related topics.'
 url:                 http://glinmac.github.io
 baseurl:             ''
-paginate:            10
+paginate_path:       '/journal/page:num/'
+paginate:            5
 
 # About/contact
 author:
@@ -25,3 +26,6 @@ linkedin:
 version:             1.0.0
 
 gems: [jekyll-paginate]
+
+exclude: [vendor]
+

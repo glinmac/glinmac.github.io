@@ -38,7 +38,7 @@ would create a new configuration group for `node1-a.example.com`
 
 This can be achieved by a `POST` request to the cluster's `config_groups` endpoint:
 
-{% highlight shell %}
+{% highlight bash %}
 $ curl -u admin:admin \
     -H 'X-Requested-By: ambari' \
     -d '
@@ -76,7 +76,7 @@ $ curl -u admin:admin \
 
 A restart of the Kafka service on the node will restart the broker on the correct interface:
 
-{% highlight shell %}
+{% highlight bash %}
 $ curl -u admin:admin \
     -H 'X-Requested-By: ambari' \
     -d '
